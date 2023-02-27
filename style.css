@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cccccc;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid rgb(138, 126, 126);
+}
+
+.snakeBody {
+    background-color: rgb(6, 99, 6);
+    border-radius: 50%;
+}
+
+.snakeHead {
+    background-color: rgb(2, 51, 2);
+    border-radius: 20%;
+}
+
+.apple {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.dead {
+    background-color: black;
+    border-radius: 50%;
+    transition: 5s;
+}
+
+.container {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    display: block;
+    height: 30px;
+}
+
+.score {
+    margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
+    display: block;
+}
+
+.button {
+    position: relative;
+    bottom: 390px;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+    background-color: darkgreen;
+    color: white;
+}
